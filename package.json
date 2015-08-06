@@ -1,0 +1,34 @@
+{
+  "name": "reservoir-sampling",
+  "version": "1.0.0",
+  "description": "Java Script Implementation Of Reservoir Sampling",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelb/reservoir-sampling.git"
+  },
+  "keywords": [
+    "reservoir",
+    "sampling",
+    "javascript"
+  ],
+  "author": "Marcel Bankmann <adsci81@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelb/reservoir-sampling/issues"
+  },
+  "homepage": "https://github.com/marcelb/reservoir-sampling#readme"
+}
