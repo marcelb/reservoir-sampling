@@ -8,10 +8,11 @@
     "test": "test"
   },
   "dependencies": {
-    "chai": "^3.2.0"
+    "through": "^2.3.8"
   },
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "node-random": "1.0.0"
   },
   "scripts": {
     "test": "mocha"
