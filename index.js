@@ -35,8 +35,8 @@ var through = require('through');
 */
 function StreamReservoirSampler(sampleLength) {
     var sample = new Array(sampleLength),
-        i = 0;
-        return through(function write(data) {
+    i = 0;
+    return through(function write(data) {
         if (i < sampleLength) {
             sample[i] = data;
         } else {
